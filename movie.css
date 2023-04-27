@@ -1,0 +1,93 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    font-weight: 800;
+    color: red;
+    font-size: 3rem;
+}
+ */
+/* Style the heading */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+    color: red;
+    font-weight: 600;
+  }
+  
+  /* Style the forms */
+  form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style the labels */
+  label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style the input fields */
+  input[type="date"],
+  input[type="time"],
+  select {
+    display: inline-block;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Style the booking status message */
+  #booking-status {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Style the cancellation status message */
+  #cancellation-status {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+  }
+  img{
+    height: 600px;
+    width: 470px;
+    justify-content: space-between;
+}
+@media (max-width:906px){
+    img{
+        height: 500px;
+    width: 430px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    }
+}
+
+  
